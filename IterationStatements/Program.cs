@@ -17,7 +17,7 @@ namespace IterationStatements
 
             //TODO - Create a variable of type int and name it "num"
             //TODO - Initialize the variable with a value of 0
-
+            var num = 0;
 
 
             //TODO - Create a do-while loop using the existing brackets as a template.
@@ -26,11 +26,12 @@ namespace IterationStatements
             // a) Increment "num" by 1
             // b) Then add "num" to the collection "numbers"
             //    Hint: Use "numbers.Add(num);" to add the current value of "num" to the list.
-
+            do
             {
                 // Your code goes here
+                num = num + 1;
                 numbers.Add(/*num*/); //uncomment out `num` to add it to the collection "numbers"
-            } 
+            } while (num < 100); 
             //TODO - Continue the loop while "num" is less than 100
             
 
