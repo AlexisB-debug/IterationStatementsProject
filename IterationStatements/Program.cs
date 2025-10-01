@@ -58,8 +58,10 @@ namespace IterationStatements
             //TODO - Create a foreach loop using the existing brackets as a template.
             // The existing brackets are placeholders for your loop code.
             // Inside this loop, print each number in "numbers".
+            foreach(var number in numbers)
             {
                 // Your code goes here
+                Console.WriteLine(number);
             }
              
 
