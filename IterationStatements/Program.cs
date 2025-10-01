@@ -42,9 +42,11 @@ namespace IterationStatements
             // a) Increment "num" by 1
             // b) Then add "num" to the collection "numbers"
             //    Hint: You can copy how this was done in the do-while loop
-
+            while(num < 200)
             {
                 // Your code goes here
+                num = num + 1;
+                numbers.Add(num);
             }
             
 
